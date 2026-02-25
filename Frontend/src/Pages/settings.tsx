@@ -35,7 +35,7 @@ const NAV_ITEMS: { id: SectionId; label: string }[] = [
 
 function SectionHeader({ id, children }: { id: string; children: React.ReactNode }) {
   return (
-    <div id={id} className="scroll-mt-16 mb-0">
+    <div id={id} className="scroll-mt-20 mb-0">
       <h2 className="text-sm font-semibold text-primary uppercase tracking-wider mb-2 mt-8 first:mt-0">
         {children}
       </h2>
